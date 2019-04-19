@@ -4,7 +4,7 @@ Derivative of ln of sigmoid function:<br/>
 
 
 1. $LL(θ) =y*ln\,\sigma(w*x)+(1−y) * ln\,(1−\sigma(w*x))$
-<br/><br/>$\dfrac{\delta LL(θ)}{\delta w} = y*\dfrac{\delta}{\delta w}ln\,\sigma(w*x)+(1−y)*\dfrac{\delta}{\delta w}ln\,(1−\sigma(w*x))$     
+$\dfrac{\delta LL(θ)}{\delta w} = y*\dfrac{\delta}{\delta w}ln\,\sigma(w*x)+(1−y)*\dfrac{\delta}{\delta w}ln\,(1−\sigma(w*x))$     
 <br/>Chain Rule:<br/><br/>
   $\dfrac{\delta ln(1- \sigma(w*x)}{\delta w} = \dfrac{\delta f}{\delta u}*\dfrac{\delta u}{\delta w} = -\dfrac{1}{1-u}*\dfrac{\delta\sigma(w*x)}{\delta w}$ , where $u = \sigma(w*x), f = ln(1-u)$ 
 <br/><br/>  
@@ -28,4 +28,3 @@ For iteration i:
 
 $w_j^{new}= w_j^{old} - \alpha*\sum_{i=1}^{n} \big[ y^i -\sigma(w*x_j^i) \big]*x_j $
 
-# logistic_regression

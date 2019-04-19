@@ -6,5 +6,5 @@ various deep learning frameworks including keras, pytorch, and tensorflow)
 
 ### Mathematics Behind Logistic Regression 
 <p align="center"> 
-<img src="LR_Equation">
+<img src="LR_Equation.png">
 </p>
